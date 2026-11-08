@@ -1,0 +1,8 @@
+{
+  "short_name": "ClassVibe",
+  "name": "ClassVibe - The Interactive Class Hub",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#4f46e5",
+  "background_color": "#f5f3ff"
+}

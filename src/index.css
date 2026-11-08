@@ -1,0 +1,24 @@
+/* Global styles + design tokens (colours) used everywhere. */
+:root {
+  --cv-indigo: #4f46e5;
+  --cv-purple: #7c3aed;
+  --cv-ink: #1e1b4b;
+  --cv-muted: #6b7280;
+  --cv-bg: #f5f3ff;
+  --cv-card: #ffffff;
+  --cv-border: #e9e5ff;
+  --cv-gradient: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  --cv-radius: 18px;
+  --cv-shadow: 0 6px 20px rgba(79, 70, 229, 0.08);
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+  background: var(--cv-bg);
+  color: var(--cv-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 { color: var(--cv-ink); }
+a { color: var(--cv-indigo); }
